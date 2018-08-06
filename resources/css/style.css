@@ -10,12 +10,12 @@ header {
     width: 100%;
     height: 80px;
     position: fixed;
-    margin: 0 20px;
 }
 .logo {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    margin-left: 10px;
 }
 .logo span {
     color: mediumaquamarine;
@@ -24,6 +24,7 @@ header {
 header nav {
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 nav span {
     display: inline-block;
@@ -32,4 +33,60 @@ nav span {
 a {
     color: black;
     padding: 10px;
+}
+div {
+    border: 1px solid black;
+}
+.main-content {
+    padding-top: 80px;
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    justify-content: space-between;
+}
+.columnlarge {
+    width: 630px;
+}
+.columnmedium {
+    width: 300px;
+}
+.columnsmall {
+    width: 240px;
+}
+#img-story-main {
+    background-image: url(../images/img-story-main.png);
+    height: 300px;
+    display: flex;
+}
+#img-story-1 {
+    background-image: url(../images/img-story-1.png);
+    height: 300px;
+    display: flex;
+}
+#img-story-2 {
+    background-image: url(../images/img-story-2.png);
+    height: 300px;
+    display: flex;
+}
+#img-story-3 {
+    background-image: url(../images/img-story-3.png);
+    height: 300px;
+    display: flex;
+}
+.text {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+.picture-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.picture-text2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
